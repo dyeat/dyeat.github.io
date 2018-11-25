@@ -2,9 +2,9 @@ title: EAT blog
 description: This is EAT Blog
 author: EAT
 github: https://github.com/dyeat
-about: 目前 從事資安相關工作,打打雜 在這紀錄一下 平常 用到的技術 方便日後回顧
+about: 在這部落格裡面紀錄一下,平常遇到用到的技術,方便日後回顧
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/EAT.png
+avatar_url: /static/img/EAT.jpg
 
 enableTags: true
 tagarray: []
