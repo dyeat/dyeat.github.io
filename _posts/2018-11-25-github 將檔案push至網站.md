@@ -7,15 +7,15 @@ tags: [github]
 ---
 
 - **初始化**
-1. <pre>git init</pre> 
+<pre>git init</pre> 
 - **新增一個說明檔 或指定資料夾** 
-2. <pre>git add README.md</pre>  
+<pre>git add README.md</pre>  
 - **commit 編輯說明**
-3. <pre>git commit -m "first commit"</pre> 
+<pre>git commit -m "first commit"</pre> 
 - **查看當前狀態 ※步驟可省略**
-4. <pre>git status</pre>
+<pre>git status</pre>
 - **指定 要上傳到哪個專案** 
-5. <pre>git remote add origin https://github.com/dyeat/dyeat.github.io.git</pre>
+<pre>git remote add origin https://github.com/dyeat/dyeat.github.io.git</pre>
 - **將檔案推上去 推至哪個來源**
-6. <pre>git push -u origin master</pre>
+<pre>git push -u origin master</pre>
 
