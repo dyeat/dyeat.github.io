@@ -1,0 +1,21 @@
+---
+layout: post                          
+title: "git 出現fatal: remote origin already exists 錯誤解決辦法"                   
+date: 2018-11-25 22:10:22 +0800       
+categories: [others, bash]         
+tags: [github]                     
+---
+
+<pre>1. 先刪除遠端Git倉庫</pre>
+
+`git remote rm origin`
+
+<pre>2. 再新增遠端 Git 倉庫</pre>
+
+`git remote add origin https://github.com/dyeat/dyeat.github.io.git`
+
+<pre>3. 執行 git remote rm origin 報錯的話，可手動修改gitconfig文件內容</pre>
+
+`vim .git/config</pre>`
+
+<pre>4. 把 [remote "origin"] 這行刪除</pre>
