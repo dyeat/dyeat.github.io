@@ -41,7 +41,7 @@ if(strcmp($_GET['password'],$flag) == 0)
 
 附上Exploit
 
-```php
+```py
 #coding=utf-8 
 import requests
 import re
