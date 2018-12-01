@@ -1,9 +1,9 @@
 ---
 layout: post                          
 title: "PHP Strcmp 繞過"                   
-date: 2018-11-29 22:18:02 +0800       
-categories: [CTF, security]         
-tags: [CTF, security]                     
+date: 2016-11-21 22:18:02 +0800       
+categories: [CTF, security, php]         
+tags: [CTF, security, php]                     
 ---
 
 
@@ -29,7 +29,7 @@ if(strcmp($_GET['password'],$flag) == 0)
 ```
 
 
-當PHP 5.3版本之後 Strcmp 只需輸入一個陣列 username[]=1 就可繞過 
+當PHP 版本 < 5.3 Strcmp 只需輸入一個陣列 username[]=1 就可繞過 
 
 
 附上 payload
@@ -41,7 +41,7 @@ if(strcmp($_GET['password'],$flag) == 0)
 
 附上Exploit
 
-```php
+```py
 #coding=utf-8 
 import requests
 import re
