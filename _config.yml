@@ -1,4 +1,4 @@
-title: EAT blog
+title: EAT
 description: This is EAT Blog
 author: EAT
 github: https://github.com/dyeat
@@ -17,10 +17,10 @@ collections:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Category
+      url: /category/php
+
+
 
 url: "https://dyeat.github.io"
 baseurl: ""
