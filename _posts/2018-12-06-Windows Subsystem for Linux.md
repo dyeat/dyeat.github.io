@@ -29,11 +29,10 @@ See https://aka.ms/wslinstall for details.
 Press any key to continue...</pre>
 
 原因：未安裝 Windows子系統支持<br />
-1.Win + x，選擇Windows PowerShell（管理員）<br />
+1.Win + x, 選擇Windows PowerShell（管理員）<br />
 2.輸入：
-<pre>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<pre><br />
+<pre>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</pre><br />
 3.Enter，輸入Y，重新啟動！<br />
-
 ![](https://dyeat.github.io/static/img/2018-12-06/WSL.PNG)
 4.重新打開已經安裝的子系統，等幾分鐘，輸入帳號和密碼，完成。
 
