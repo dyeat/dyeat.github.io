@@ -19,8 +19,8 @@ Windows10 組建大於 14393時 可安裝 Ubuntu 子系統
 ### 至 Michosoft Store 尋找 ubuntu -> 安裝
 ![](https://dyeat.github.io/static/img/2018-12-06/Ubuntu.PNG)
 
- ### 出現
- `error:0x8007019e`
+### 出現
+`error:0x8007019e`
 
 <pre>Installing, this may take a few minutes...
 WslRegisterDistribution failed with error: 0x8007019e
