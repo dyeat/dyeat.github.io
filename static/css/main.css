@@ -4,7 +4,7 @@ body {
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
-  color: #666;
+  color: #fff;
 }
 hr {
   margin-top: 20px;
@@ -19,7 +19,7 @@ span.time, span.categories {
   font-size: 11px;
 }
 h1, h2, h3 {
-  color: #696969;
+  color: #72b5b9;
   font-weight: normal;
 }
 h1 {
@@ -40,7 +40,7 @@ a:hover {
 
 /* Layout */
 .main-layout {
-  background: #fff;
+ /* background: #fff;*/
 }
 .sidebar-nav {
   margin: 0;
