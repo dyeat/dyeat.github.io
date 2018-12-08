@@ -41,6 +41,7 @@ a:hover {
 /* Layout */
 .main-layout {
  /* background: #fff;*/
+ background: rgba(0%,10%,20%,0.5);
 }
 .sidebar-nav {
   margin: 0;
