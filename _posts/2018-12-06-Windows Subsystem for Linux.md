@@ -2,7 +2,7 @@
 layout: post
 title: "[WSL]Windows Subsystem for Linux"
 date: 2018-12-06 16:55:20 +0800
-categories: [others]
+categories: [windows]
 tags: [windows]
 ---
 
