@@ -42,7 +42,7 @@ a:hover {
 .main-layout {
  /* background: #fff;*/
  background: rgba(0%,10%,20%,0.5);
- position: static;
+ position: relative;
  top: 60px;
 
 }
