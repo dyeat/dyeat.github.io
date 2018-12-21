@@ -8,10 +8,10 @@ tags: [reverse]
 
 ### 利用patch使驗證失效
 
-這次範例
+這次範例<br />
 ![1.png](https://dyeat.github.io/static/img/2018-12-21/1.png)
 
-先亂輸入用戶名與序號列 點擊Check
+先亂輸入用戶名與序號列 點擊Check <br />
 ![2.png](https://dyeat.github.io/static/img/2018-12-21/2.png)
 
 
@@ -19,12 +19,13 @@ tags: [reverse]
 
 丟進Ollydbg  開始跟進 找斷點
  ![3.png](https://dyeat.github.io/static/img/2018-12-21/3.png)
+ <br />
 
-在004011B4與004011C8這邊發現GetDlgItemTextA
+在`004011B4`與`004011C8`這邊發現`GetDlgItemTextA`
 
 `004011D2  CMP EBX,5   //可以推算 用戶名 大概是五個字元`
 
-重點在004011F5這句 
+重點在`004011F5`這句 
 
 `004011F5  JE SHORT TrackMe.0040122E`
 
@@ -36,7 +37,7 @@ else
 	printf("驗證錯誤!\n")</code>
 ```
     
-  **只要4011F5一句不跳轉即可註冊成功**
+  只要`004011F5`一句不跳轉即可註冊成功
   
  `在這把004011F5改成NOP`
   
