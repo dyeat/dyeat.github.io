@@ -32,9 +32,9 @@ tags: [reverse]
 意思大概就是 
 ```C
 if ( x <= 5)
-    printf("驗證成功!"\n");
+	printf("驗證成功!"\n");
 else
-	printf("驗證錯誤!\n");
+	printf("驗證錯誤!"\n");
 ```
     
   只要`004011F5`一句不跳轉即可註冊成功
