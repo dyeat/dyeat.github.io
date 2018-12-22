@@ -9,10 +9,10 @@ tags: [reverse]
 ### 利用patch使驗證失效
 
 這次範例<br />
-![1.png](https://dyeat.github.io/static/img/2018-12-21/1.png)
+![1.png](https://dyeat.github.io/static/img/2018-12-21/2.png)
 
 先亂輸入用戶名與序號列 點擊Check <br />
-![2.png](https://dyeat.github.io/static/img/2018-12-21/2.png)
+![2.png](https://dyeat.github.io/static/img/2018-12-21/1.png)
 
 
 會得到錯誤訊息
