@@ -30,7 +30,7 @@ tags: [reverse]
 `004011F5  JE SHORT TrackMe.0040122E`
 
 意思大概就是 
-```C
+```C=
 if ( x <= 5)
 	printf("驗證成功!"\n");
 else
