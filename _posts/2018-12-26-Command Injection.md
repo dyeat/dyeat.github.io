@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Web]Command Injection"
+title: "[WEB]Command Injection"
 date: 2018-12-26 23:18:02 +0800
 categories: [security,web]
 tags: [security,web]
