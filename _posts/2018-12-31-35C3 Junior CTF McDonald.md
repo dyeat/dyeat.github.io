@@ -11,9 +11,11 @@ tags: [web,security,CTF]
 
 ### 題目網址:http://35.207.132.47:85/
 
-
-
+### 題目說明
+```
 Our web admin name's "Mc Donald" and he likes apples and always forgets to throw away his apple cores..
+```
+
 
 打開網頁會看到
 
@@ -47,4 +49,6 @@ http://35.207.132.47:85/backup/b/a/c/flag.txt
 ```
 也會有一樣答案
 
+
+35c3_Appl3s_H1dden_F1l3s
 
