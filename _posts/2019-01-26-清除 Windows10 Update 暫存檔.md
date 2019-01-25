@@ -23,10 +23,12 @@ tags: [windows]
 或是將以下 存成bat檔 執行
 ```bat
 @ECHO OFF
-REM  2019-01-26 刪除 Windows Update Download暫存檔
-del /S /Q %systemroot%\SoftwareDistribution\Download\
+chcp 65001
+echo 正在清理 Windows Update Download暫存檔...
+rd /S /Q %systemroot%\SoftwareDistribution\Download\
 
-ECHO 刪除完成~
+ECHO 清理完成...
+pause
 ```
 
 開啟時 必須使用系統管理員開啟<br />
