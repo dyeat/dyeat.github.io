@@ -15,7 +15,7 @@ tags: [windows]
 `wmic qfe | more`
 
 - 列出所有更新檔 只留KB開頭<br>
-`wmic qfe list full | find "KB9"`
+`wmic qfe list full | find "KB"`
 
 - 輸出成一個html檔案<br>
 `wmic qfe list full /format:htable > [路徑][檔名][格式]`
