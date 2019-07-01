@@ -1,9 +1,9 @@
 ---
-layout: post                          
-title: "[PHP] filter_var FILTER_VALIDATE_EMAIL 繞過"                   
-date: 2018-12-01 21:20:00 +0800       
-categories: [php, security]         
-tags: [php, security]                     
+layout: post
+title: "[PHP] filter_var FILTER_VALIDATE_EMAIL 繞過"
+date: 2018-12-01 21:20:00 +0800
+categories: [php, security]
+tags: [php, security]
 ---
 
 ### [資料來源](https://tricking.io/card/14/content)
@@ -31,7 +31,9 @@ local part長度不超過64個字符
 
 ```php
 <?php
+
 $email = '"@aaa\'"@example.com';
+
 var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
 ```
 
@@ -42,27 +44,33 @@ var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
 ---
 ```php
 <?php
-function actionRegister(){
-    if ($_POST) {
+function actionRegister()
+{
+    if ( $_POST ) {
         $username = arg('username');
         $password = arg('password');
 
-        if (empty($username) || empty($password)) {
+        if ( empty($username) || empty($password) )
+        {
             $this->error('Username or password is empty.');
         }
 
         $email = arg('email');
-        if (empty($email)) {
+        if ( empty($email) )
+        {
             $email = $username . '@' . arg('HTTP_HOST');
         }
 
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( !filter_var($email, FILTER_VALIDATE_EMAIL) )
+        {
             $this->error('Email error.');
         }
 
         $user = new User();
         $data = $user->query("SELECT * FROM `{$user->table_name}` WHERE `username` = '{$username}'");
-        if ($data) {
+
+        if ($data)
+        {
             $this->error('This username is exists.');
         }
 
@@ -71,9 +79,13 @@ function actionRegister(){
             'password' => md5($password),
             'email' => $email
         ]);
-        if ($ret) {
+
+        if ($ret)
+        {
             $_SESSION['user_id'] = $user->lastInsertId();
-        } else {
+        }
+        else
+        {
             $this->error('Unknown error.');
         }
     }

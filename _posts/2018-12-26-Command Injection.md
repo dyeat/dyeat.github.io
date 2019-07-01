@@ -9,13 +9,16 @@ tags: [security,web]
 ### **Example 1**
 ```php
 <?php
+
 $dir = $_GET["dir"];
+
 if (isset($dir))
 {
-echo "<pre>";
-system("ls -al ".$dir);
-echo "</pre>";
+	echo "<pre>";
+	system("ls -al ".$dir);
+	echo "</pre>";
 }
+
 ?>
 ```
 <pre>
@@ -25,9 +28,13 @@ payload: http://localhost/ex1.php?dir=| cat /etc/passwd
 ### **Example 2**
 ```php
 <?php
+
 print("Please specify the name of the file to delete");
+
 print("<p>");
-$file=$_GET['filename'];
+
+$file = $_GET['filename'];
+
 system("rm $file");
 ?>
 ```

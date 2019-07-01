@@ -1,6 +1,6 @@
 body {
   font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-  background: url("/static/img/bg.jpg");
+  background:linear-gradient(226deg, rgba(0, 158, 216, 0.6)0%, rgba(255, 116, 121, 1)100%); 
   line-height: 2.0em;
   font-weight: 300;
   font-weight: bold;
@@ -102,7 +102,7 @@ div.col-sm-3 strong {
 }
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
-  color: #29c58d;
+  color: #9b1455;
   letter-spacing: .1em;
 
 }
