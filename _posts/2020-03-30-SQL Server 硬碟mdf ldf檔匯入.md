@@ -9,7 +9,8 @@ tags: [sql]
 ### 一、找尋SQL Server 內 資料庫的DATA位置
 
 此次路徑為下 大多路徑在這底下
-```sh
+
+```bat
 C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA
 ```
 
@@ -40,7 +41,7 @@ C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA
 ### 三、 至SQL Server 新增資料庫
 
 **新增查詢->輸入以下指令**
-```MSsql
+```sql
 
 EXEC  sp_attach_db  @dbname  =  '你的資料庫名',
 @filename1  =  'mdf檔案路徑(包綴名)',
