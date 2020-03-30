@@ -10,9 +10,7 @@ tags: [sql]
 
 此次路徑為下 大多路徑在這底下
 
-```bat
-C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA
-```
+<pre>C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA</pre>
 
 ---
 
