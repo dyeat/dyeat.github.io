@@ -1,10 +1,10 @@
 body {
   font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-  background:linear-gradient(226deg, rgba(0, 158, 216, 0.6)0%, rgba(255, 116, 121, 1)100%); 
+  background:linear-gradient(226deg, rgba(0, 28, 116, 0.6)0%, rgba(100, 116, 121, 1)100%); 
   line-height: 2.0em;
   font-weight: 300;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   color: #C5C8C6;
 }
 hr {
