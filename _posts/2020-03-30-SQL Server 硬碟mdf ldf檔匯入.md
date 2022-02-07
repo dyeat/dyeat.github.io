@@ -2,6 +2,7 @@
 layout: post
 title: "SQL Server 硬碟mdf ldf檔匯入"
 date: 2020-03-30 16:20:20 +0800
+img: 2020-03-20/1.png
 categories: [sql]
 tags: [sql]
 ---

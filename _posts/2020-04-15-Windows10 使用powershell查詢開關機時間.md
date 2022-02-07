@@ -2,6 +2,7 @@
 layout: post
 title: "Windows10 使用powershell查詢開關機時間"
 date: 2020-04-15 09:55:20 +0800
+img : 2020-04-15/1.png
 categories: [windows]
 tags: [windows]
 ---
