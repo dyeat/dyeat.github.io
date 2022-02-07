@@ -1,40 +1,41 @@
 title: Welcome to EAT Blog
-description: This is EAT Blog
-author: EAT
-github: https://github.com/dyeat
-about: 在這部落格裡面紀錄一下,平常遇到用到的技術,方便日後回顧
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/logo.png
+description: 在這部落格裡面紀錄一下,平常遇到用到的技術,方便日後回顧
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://github.com/dyeat" # the base hostname & protocol for your site, e.g. http://example.com
 
-enableTags: true
-tagarray: []
 
+# Author Settings
+author:
+  name: EAT
+  image: '/static/img/logo.png'
+  job: 
+  bio:
+  email: 
+
+
+# Google Analytics
+google-analytics: UA-141503372-1
+
+
+# Collestions
 collections:
-  project:
-    output: true
-    permalink: /project/:path/
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: Category
-      url: /category/php
+  projects:
+    output: false
 
 
-
-url: "https://dyeat.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
+# Build settings
 markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+permalink: pretty
+plugins:
+  - jekyll-sitemap
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
