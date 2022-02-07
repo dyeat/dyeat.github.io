@@ -1,41 +1,35 @@
 title: Welcome to EAT Blog
-description: 在這部落格裡面紀錄一下,平常遇到用到的技術,方便日後回顧
+description: > # this means to ignore newlines until "baseurl:"
+ 在這部落格裡面紀錄一下,平常遇到用到的技術,方便日後回顧
+permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/dyeat" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author:
-  name: EAT
-  image: '/static/img/logo.png'
-  job: 
-  bio:
-  email: 
+author: EAT # add your name
+author-img: /static/img/logo.png # add your photo
+about-author: nothing # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: dyeat # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
 
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
 
-# Google Analytics
-google-analytics: UA-141503372-1
+# Tracker
+analytics: # Google Analytics
 
-
-# Collestions
-collections:
-  projects:
-    output: false
-
-
-# Build settings
+# Build Settings
 markdown: kramdown
-permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
+paginate: 8
+paginate_path: "/page/:num"
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
