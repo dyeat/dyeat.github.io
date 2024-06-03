@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[PGPlay] sar 靶機 write Up"
+title: "[PGPlay] sar 靶機 Write-up"
 date: 2024-06-03 23:10:02 +0800
 categories: [offsec]
 tags: [offsec]
