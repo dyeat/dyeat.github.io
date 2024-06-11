@@ -6,9 +6,10 @@ categories: [offsec]
 tags: [offsec]
 ---
 本系列為 Proving Grounds Play Free 靶機
-題目為 Easy
 
-## nmap
+題目難易度為 Easy
+
+### nmap
 
 很多坑的一題
 
@@ -20,7 +21,7 @@ tags: [offsec]
 
 ![](../static/img/2024-06-12/1.png)
 
-## 7601 Port
+7601 Port
 
 ![](../static/img/2024-06-12/2.png)
 
