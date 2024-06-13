@@ -50,7 +50,10 @@ keyy:
 
 最後 找線上的fetnet 進行破解
 
-得到的數據為 : `lucy:wJ9`"Lemdv9[FEw-`
+得到的數據為 : 
+```bash
+lucy:wJ9`"Lemdv9[FEw-
+```
 
 ![](../static/img/2024-06-14/5.png)
 
@@ -62,11 +65,13 @@ keyy:
 
 依然無結果 最後看到帳號 密碼就已經在上方
 
-`lucy:wJ9`"Lemdv9[FEw-`
+```bash
+lucy:wJ9`"Lemdv9[FEw-
 
-`user = lucy` 
+user = lucy
 
-`password = wJ9`"Lemdv9[FEw-`
+password = wJ9`"Lemdv9[FEw-
+```
 
 ![](../static/img/2024-06-14/6.png)
 
