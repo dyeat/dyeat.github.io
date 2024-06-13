@@ -15,11 +15,11 @@ tags: [offsec]
 
 介面command injeciton
 
-![](../static/img/2024-06-12/0.png)
+![](../static/img/2024-06-13/0.png)
 
 出現內容
 
-![](../static/img/2024-06-12/1.png)
+![](../static/img/2024-06-13/1.png)
 
 直接revshell
 
@@ -27,11 +27,11 @@ tags: [offsec]
 
 嘗試 443 也不行,最終改為80 port才彈成功
 
-![](../static/img/2024-06-12/2.png)
+![](../static/img/2024-06-13/2.png)
 
 查找SUID,發現有vim
 
-![](../static/img/2024-06-12/3.png)
+![](../static/img/2024-06-13/3.png)
 
 ## 進行提權
 
