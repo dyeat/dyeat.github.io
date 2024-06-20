@@ -8,7 +8,7 @@ tags: [offsec]
 本系列為 Proving Grounds Play Free 靶機
 
 官方難度 : Easy
-社群認定難度 : INTERMEDIATE
+社群評論難度 : INTERMEDIATE
 
 ## Port scan 發現 1337,3306 port
 

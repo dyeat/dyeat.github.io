@@ -10,7 +10,7 @@ tags: [offsec]
 
 官方難度 : Easy
 
-社群認定難度 : Easy
+社群評論難度 : Easy
 
 知識點 : openssh key 權限必須為 600
 
